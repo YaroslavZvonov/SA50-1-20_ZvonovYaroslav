@@ -1,0 +1,36 @@
+table {
+    border-spacing: 0px;
+    width:  300px;
+    height: 100px;
+    background-color: black;
+    }
+
+    td.r1 {
+    background-color: red;
+    width:  80px;
+    height: 100px;
+    }
+    
+    td.wh {
+    background-color: white;
+    width:  180px;
+    height: 100px;
+    }
+
+    .d5 {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 0px;
+        left: 32px;
+        right: 32px;
+        bottom: 25px;
+    }
+
+    td.r2 {
+        background-color: red;
+        width:  80px;
+        height: 100px;
+        }
+        
+
