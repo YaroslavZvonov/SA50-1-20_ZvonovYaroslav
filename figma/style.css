@@ -1,0 +1,172 @@
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 20px;
+
+}
+
+.a {
+
+    width: 40px;
+    height: 40px;
+    background: #333333;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.b {
+    width: 40px;
+    height: 40px;
+    background:#EB5757;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.c {
+    width: 40px;
+    height: 40px;
+    background: #2F80ED;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.d {
+
+    width: 40px;
+    height: 40px;
+    background: #4F4F4F;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.f {
+    width: 40px;
+    height: 40px;
+    background: #F2994A;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.e {
+    width: 40px;
+    height: 40px;
+    background: #2D9CDB;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.g {
+    width: 40px;
+    height: 40px;
+    background: #828282;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.h {
+    width: 40px;
+    height: 40px;
+    background: #F2C94C;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.i {
+
+    width: 40px;
+    height: 40px;
+    background: #56CCF2;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.j {
+    
+    width: 40px;
+    height: 40px;
+    background: #BDBDBD;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.k {
+    
+    width: 40px;
+    height: 40px;
+    background: #219653;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.l {
+    
+    width: 40px;
+    height: 40px;
+    background: #9B51E0;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.m {
+    
+    width: 40px;
+    height: 40px;
+    background: #E0E0E0;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.n {
+    
+    width: 40px;
+    height: 40px;
+    background: #27AE60;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.o {
+    
+    width: 40px;
+    height: 40px;
+    background: #BB6BD9;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.p {
+    
+    width: 40px;
+    height: 40px;
+    background: #F2F2F2;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.q {
+    
+    width: 40px;
+    height: 40px;
+    background: #6FCF97;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
