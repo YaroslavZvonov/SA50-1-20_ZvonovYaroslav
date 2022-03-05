@@ -1,0 +1,162 @@
+.cont1 {
+    width: 100%;
+    height: 800px;
+    border: 3px solid black;
+    display: flex;
+    margin-bottom: 20px; }
+
+
+.box1 {
+    width: 120px;
+    height: 120px;
+    border: 3px solid red;
+}
+
+#box11 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.box2 {
+    width: 120px;
+    height: 120px;
+    border: 3px solid blue;
+}
+
+#box22 {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.box3 {
+    width: 120px;
+    height: 120px;
+    border: 3px solid green;
+}
+
+#box33 {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+.xbox {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+
+}
+
+#xbox1 {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}
+
+.xbox2 {
+    width: 120px;
+    height: 120px;
+    background-color:  blue;
+}
+    
+#xbox22 {
+    position: absolute;
+    top: 1100px;
+    left: 200px;}
+
+.xbox3 {
+        width: 120px;
+        height: 120px;
+        background-color:  green;
+    }
+        
+#xbox33 {
+     position: absolute;
+     top: 1200px; 
+     left: 300px;}
+
+     .xb {
+        width: 120px;
+        height: 120px;
+        background-color: red;
+    
+    }
+    
+    #xb1 {
+        position: absolute;
+        top: 1800px;
+        left: 100px;
+    }
+    
+    .xb2 {
+        width: 120px;
+        height: 120px;
+        background-color:  green;
+    }
+        
+    #xb22 {
+        position: absolute;
+        top: 1900px;
+        left: 200px;}
+    
+    .xb3 {
+            width: 120px;
+            height: 120px;
+            background-color:  blue;
+        }
+            
+    #xb33 {
+         position: absolute;
+         top: 2000px; 
+         left: 300px;}
+
+    .z {
+        
+        width:100%;
+        height: auto;
+        background-color: rgb(137, 201, 137);
+    }
+
+    .v1 {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        position: relative;
+        margin-top: 30px;
+        margin-left: -1000px;
+        margin-right: 250px;
+    }
+
+    #v2 {
+        margin-top: 500px;
+        margin-left: 580px;
+        margin-bottom: 30px;
+    }
+
+    .info {
+        width: 500px;
+        height: 500px;
+        overflow: scroll;
+        padding-left: auto;
+        padding-top: auto;
+    }
+
+    .b {
+        background: wheat;
+        border: 3px solid yellowgreen;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    .c {
+        background: rgb(141, 58, 58);
+        width: 400px;
+        height: 100px;
+        padding: 15px;
+        padding-top: auto;
+        margin-left: 26px;
+        line-height: 20px;
+    }
