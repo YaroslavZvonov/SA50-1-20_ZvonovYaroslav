@@ -20,15 +20,22 @@ nav {
     border-bottom: 3px solid #828282;
 }
 
+.list__item {
+    font-family: Oswald-Normal;
+    font-size: 64px;
+    line-height: 22px;
+    font-weight: bold;
+    color: black;
+}
+
 .list__item__link {
     font-family: Oswald-Normal;
-    font-size: 18px;
+    font-size: 34px;
     line-height: 22px;
     font-weight: bold;
     color: black;
     text-decoration: none;
 }
-
 .conteiner {
 
 }
