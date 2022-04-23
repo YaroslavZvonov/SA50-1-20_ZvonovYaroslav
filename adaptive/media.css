@@ -1,0 +1,14 @@
+@media all screen (max-width: 600px){
+    .list{
+        width: 428px;
+    }
+    .conteiner {
+        width: 200px;
+    }
+    .list__item__link{
+        color: blue;
+    }
+    .menu {
+        width: 428px;
+    }
+}
