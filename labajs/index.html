@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zvonov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dody">
+    <img  
+        src="https://pp.vk.me/c628627/v628627517/44839/qLlyXFzQzoM.jpg"
+        onclick ="anime()"style="display: block; width: 100px; height: 100px;"
+    >
+    </div>
+
+    <script>
+        let wwidth = window.innerWidth;
+        let wheight = window.innerHeight;
+        let xleft = 0;
+        let xtop = 0;
+        let block = document.getElementsByTagName('img')[0];
+        let blockwidth = parseInt(block.style.width, 10);
+        let blockheight = parseInt(block.style.height, 10);
+        function anime() {
+            setInterval(frame, 10);
+        }
+        function frame() {
+            if (xleft < (wwidth - blockwidth) && xtop ==0) {
+                xleft++;
+            }
+            if (xleft == (wwidth - blockwidth) && xtop < wheight) {
+                xtop++;
+            }
+            if (xtop == (wheight - blockheight) && xleft > 0) {
+                xleft--;
+                }
+            if (xleft == 0 && xtop > 0) {
+                xtop--;
+            }
+            block.style.marginLeft = xleft + 'px';
+            block.style.marginTop = xtop + 'px';
+        }
+    </script>
+</body>
+</html>
