@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Добавление</title>
+<meta charset="utf-8" />
+<style>
+.field {
+width: 180px;
+}
+</style>
+</head>
+<body>
+<h1>Добавление студентов</h1>
+<form method="POST">
+<label>Имя </label><br>
+<input /><br><br>
+<label>Фамилия</label><br>
+<select name="">
+{{#each speciality}}
+<option value="{{this.id}}">{{this.nomer}} --- {{this.kod}}</option>
+{{/each}}
+</select>
+<input type="submit" value="Отправить" />
+</form>
+<a href="/">К списку специальностей</a>
+</body>
+<html>

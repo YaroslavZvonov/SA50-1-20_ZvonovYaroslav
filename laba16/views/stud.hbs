@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Студенты</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<h1>Перечень студентов</h1>
+<p><a href="/">Список специальностей</a></p>
+<p><a href="/create">Добавление студентов</a></p>
+<table>
+<tr>
+<th>Имя</th>
+<th>Фамилия</th>
+<th>Отчество</th>
+<th>Студгруппа</th>
+<th>Дата рождения</th>
+</tr>
+{{#each studenty}}
+<tr>
+<td style="color: purple;">{{this.name}}</td>
+<td>{{this.familia}}</td>
+<td style="color: purple;">{{this.surname}}</td>
+<td style="color: purple;">{{this.gruppa}}</td>
+<td style="color: purple;">{{this.birth}}</td>
+</tr>
+{{/each}}
+</table>
+</body>

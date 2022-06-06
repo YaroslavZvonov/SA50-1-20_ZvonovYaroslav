@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Специальности</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<h1>Специальности</h1>
+<p><a href="/create">Добавить специальность</a></p>
+<table>
+<tr>
+<th>Номер</th>
+<th>Код</th>
+</tr>
+{{#each speciality}}
+<tr>
+<td style="color: yellow;">{{this.nomer}}</td>
+<td>{{this.kod}}</td>
+</tr>
+{{/each}}
+</table>
+</body>
+<html>
