@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Добавление</title>
+<meta charset="utf-8" />
+<style>
+.field {
+width: 180px;
+}
+</style>
+</head>
+<body>
+<h1>Добавление студентов</h1>
+<form method="POST">
+<label>Имя </label><br>
+<input name="name"/><br><br>
+<label>Фамилия</label><br>
+<input name="familia"/><br><br>
+<label>Отчество</label><br>
+<input name="surname"/><br><br>
+<label>г.р</label><br><br>
+<input name="birth"/><br><br>
+<select name="gruppa">
+{{#each speciality}}
+<option value="{{this.id}}">{{this.gruppa}} --- {{this.course}}</option>
+{{/each}}
+</select>
+<input type="submit" value="Отправить" />
+</form>
+<a href="/">К списку специальностей</a>
+<a href="/stud">К списку студентов</a>
+<a href="/grup">К списку студенческих групп</a>
+</body>
+<html>
